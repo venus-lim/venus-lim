@@ -1,15 +1,21 @@
-# TrueGrit — Conversion Landing Page (`truegrit-landing-page`)
+# True Grit Studio — Multi-View Landing Page (`truegrit-landing-page`)
 
-**Brand:** TrueGrit  
+**Brand:** True Grit Studio (*Clinical Transformation Partnership*)  
 **Repository Visibility:** Private
 
 ---
 
 ### 1. System Purpose
-A dedicated conversion landing page and responsive frontend presentation built to showcase brand offerings, highlight visual media assets, and guide visitors through a clear call-to-action funnel.
+A responsive, multi-view landing page built for **True Grit Studio** to present brand positioning and guide visitors through structured information views.
 
 ---
 
-### 2. Key Focus Areas
-* **Responsive Layout & Visual Hierarchy:** Structured for clean mobile and desktop rendering with fast-loading visual assets.
-* **Modular Frontend Structure:** Organized for straightforward copy updates, asset swaps, and static hosting deployment.
+### 2. Repository Structure
+```text
+truegrit-landing-page/
+├── index.html & index.js   Main entry point & view navigation logic
+├── shared/css/             Core design variables, reset & global UI styles
+├── views/                  Modular section views (discover, explore, learn-more)
+├── assets/                 Visual media & brand assets
+└── toolshed/               Helper utilities
+```
