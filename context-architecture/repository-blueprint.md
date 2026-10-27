@@ -1,4 +1,4 @@
-# Context Architecture & Modular "Sub-Charger" Workflow
+# Context Architecture & Modular Task Breakdown
 
 This document outlines the standard repository structure and AI workflow used across my web, automation, and creative production projects.
 
@@ -21,14 +21,14 @@ Rather than relying on unguided "vibe prompting," work is divided across specifi
 
 ---
 
-## 2. Obsidian Context Graphs & "Sub-Charger" Task Breakdown
+## 2. Obsidian Context Graphs & Modular Task Breakdown
 
 * **Linked Documentation (`Obsidian` & `graphify`):**
   - Organizes project markdown files (`what`, `how`, `why`, `when`, `where`, `who`) into a linked map so the AI reads only the relevant rule files for a task instead of scanning the entire repository.
 * **Defining Business Rules Up Front:**
   - Requires the AI to pause when a business rule is missing and clarify operational edge cases (such as blank fields, mid-month move-outs, or quota limits) before writing code.
-* **Modular "Sub-Charger" Breakdown:**
-  - Large projects are broken down into smaller, self-contained tasks ("sub-chargers") with clear goals and verification checklists—allowing the operator to stitch working components together with human QA rather than building monolithic systems in a single prompt.
+* **Modular Task Breakdown:**
+  - Large projects are broken down into smaller, self-contained task units with clear acceptance criteria and verification checklists—allowing the operator to stitch working components together with human QA rather than building monolithic systems in a single prompt.
 
 ---
 

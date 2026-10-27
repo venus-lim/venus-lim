@@ -40,15 +40,17 @@ Full-stack repositories separate business rules and reference logs (`docs/`) fro
 
 ```text
 project-repository/
-├── CLAUDE.md                  Root project manual: rules, workflows & folder index
-├── docs/ (what · how · when)  Business logic, architecture, logs, audits & plans (.md)
-├── Frontend/ & design-system/ Live web UI + isolated visual preview sandbox
-├── Backend/ (or server/)      API routes, webhook listeners & business services
-├── Database/ (prisma/)        PostgreSQL schema & chronological SQL migrations
-└── .claude/ & .agents/skills/ Reusable AI agent workflows, rules & check scripts
+├── CLAUDE.md              Root project manual: operational rules, workflows & folder index
+├── docs/                  Business logic, system architecture, audit logs & task plans (.md)
+├── client/                Live web application (React, Vite, Tailwind CSS; or Frontend/)
+├── server/                API services, webhook listeners & business logic (or Backend/)
+├── database/              PostgreSQL schema, Prisma models & migrations (or Database/)
+├── design-system/         Isolated visual sandbox for UI component staging & review
+├── tests/                 Automated endpoint, schema, and integration verification suites
+└── .claude/               AI agent workspace instructions, slash commands & check scripts
 ```
 
-Workflow details: [Context Architecture & Sub-Charger Workflow](./context-architecture/repository-blueprint.md)
+Workflow details: [Context Architecture & Modular Task Breakdown](./context-architecture/repository-blueprint.md)
 
 ---
 
