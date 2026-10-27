@@ -27,7 +27,7 @@ Production repositories are kept private to protect client records and internal 
 * `ecoglobal-sales-portal` — **Sales & Lead CRM Portal** · Property inquiry pipeline connected to `condormitel.homes`, Meta lead webhooks, Supabase, Render, and Brevo (`423` files) · [architecture spec](./engagements/ecoglobal-development-corp/sales-crm-and-lead-portal.md)
 
 **Planet of the Capes**
-* `planet-of-the-capes-storefront` — **Storefront & `9:16` Reels Engine** · Modular collector storefront (`sections/00–08` compiled via Node `build.js`), vertical video showcase, and Cloudflare Pages deployment (`422` files) · [architecture spec](./engagements/planet-of-the-capes/storefront-and-reels-engine.md) · [planetofthecapes.shop](https://planetofthecapes.shop) *(live preview)*
+* `planet-of-the-capes-storefront` — **Collector Storefront & Catalog Showcase** · Modular web storefront (`sections/00–08` compiled via Node `build.js`), embedded video reels, category filter tabs, and interactive "Dibs" claim preview (`422` files) · [architecture spec](./engagements/planet-of-the-capes/storefront-and-catalog.md) · [planetofthecapes.shop](https://planetofthecapes.shop) *(live preview)*
 
 **TrueGrit**
 * `truegrit-landing-page` — **Conversion Landing Page** · Responsive digital storefront and lead-capture layout · [architecture spec](./engagements/truegrit/conversion-landing-page.md)
