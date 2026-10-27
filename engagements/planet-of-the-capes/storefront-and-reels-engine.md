@@ -1,19 +1,19 @@
 # Planet of the Capes — Storefront & Reels Engine (`planet-of-the-capes-storefront`)
 
-> **Brand:** Planet of the Capes (*The Collector's Time Machine*)  
-> **Repository Visibility:** `🔒 Private` (`422` files · modular Node build pipeline)  
-> **Live Public Preview:** [https://planetofthecapes.shop](https://planetofthecapes.shop) *(Under Active Development)*
+**Brand:** Planet of the Capes (*The Collector's Time Machine*)  
+**Repository Visibility:** Private (`422` files · modular Node build pipeline)  
+**Live Public Preview:** [https://planetofthecapes.shop](https://planetofthecapes.shop) *(Under Active Development)*
 
 ---
 
-## 1. System Purpose
+### 1. System Purpose
 An interactive e-commerce storefront and digital showcase built for vintage and modern action figure collectors. Combines short-form vertical video reels (`9:16`) with live catalog browsing, franchise filter tabs, and an interactive "Dibs" reservation flow.
 
-> **Development Note:** The public storefront at [planetofthecapes.shop](https://planetofthecapes.shop) is live for preview while remaining site features and catalog tools continue under active development.
+*Development Note: The public storefront at [planetofthecapes.shop](https://planetofthecapes.shop) is live for preview while remaining site features and catalog tools continue under active development.*
 
 ---
 
-## 2. Modular Build & Media Architecture
+### 2. Modular Build & Media Architecture
 ```text
 planet-of-the-capes-storefront/
 ├── CLAUDE.md          Operational rules, UI protocols & Cloudflare quota guardrails

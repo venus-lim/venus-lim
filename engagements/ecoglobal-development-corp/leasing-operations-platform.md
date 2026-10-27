@@ -1,17 +1,17 @@
 # EcoGlobal Leasing Operations Platform (`ecoglobal-leasing-operations`)
 
-> **Company:** EcoGlobal Development Corp.  
-> **Repository Visibility:** `🔒 Private` (`1,241` files · `132` commits · `289` Markdown context docs)  
-> **Public Entry Point:** [https://condormitel.homes](https://condormitel.homes)
+**Company:** EcoGlobal Development Corp.  
+**Repository Visibility:** Private (`1,241` files · `132` commits · `289` Markdown context docs)  
+**Public Entry Point:** [https://condormitel.homes](https://condormitel.homes)
 
 ---
 
-## 1. System Purpose
+### 1. System Purpose
 A centralized, multi-department property management and leasing operations dashboard designed to manage the lifecycle of residential units, property owners, tenants, utility billing, and lease contracts across four departments: **Leasing**, **PMO (Property Management Office)**, **Maintenance**, and **Accounting**.
 
 ---
 
-## 2. Hub-Based Repository Structure (11 Operational Hubs)
+### 2. Hub-Based Repository Structure (11 Operational Hubs)
 Both the `/Frontend` (`React 19` + `Vite` + `Tailwind CSS`) and `/Backend` (`Express 5` + `Prisma` + `Supabase PostgreSQL`) mirror the 11 sidebar sections so every UI tab maps directly to its corresponding folder:
 
 1. `property-assets` — Unit inventory, bed slot tracking, and key custody
@@ -28,7 +28,7 @@ Both the `/Frontend` (`React 19` + `Vite` + `Tailwind CSS`) and `/Backend` (`Exp
 
 ---
 
-## 3. Connected Infrastructure
+### 3. Connected Infrastructure
 * **Database & Storage:** Supabase (`PostgreSQL` + `Storage`) managed via `Prisma` schema migrations
 * **Hosting:** Render (`Backend Web Service` + `Render Static Sites`)
 * **Email Delivery:** Brevo transactional email templates

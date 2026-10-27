@@ -1,29 +1,42 @@
 # Venus Lim
 
-**Operations, AI Workflow Architecture & Multimedia Production**  
-📍 Quezon City, Philippines · ✉️ [limvenus167@gmail.com](mailto:limvenus167@gmail.com)
+Operations, AI workflow systems, and creative production.  
+Quezon City, PH · [limvenus167@gmail.com](mailto:limvenus167@gmail.com)
 
-Tech-native operations builder and multimedia producer specializing in **context-engineered AI workflows (`CLAUDE.md` / `Obsidian`)**, **full-stack operational tools**, and **short-form video & creative pipelines**. Every production repository in this account is kept **Private (`🔒`)** to protect client data and proprietary business workflows; sanitized architectural briefs and live public links are indexed below by company engagement.
-
----
-
-## 🏢 Repository & System Index by Company
-
-All active production repositories follow a standardized **`[company]-[system-role]`** naming convention:
-
-| Company / Brand | Private Repository (`🔒`) | System Role & Stack Summary | Public Spec & Live Link |
-| :--- | :--- | :--- | :--- |
-| **EcoGlobal Development Corp.** | `ecoglobal-leasing-operations` | **11-Hub Property & Leasing Operations Platform** (`React 19`, `Vite`, `Express 5`, `Prisma`, `Supabase PostgreSQL`, `Render`, `Brevo`, `Doppler`) — `1,241` files, `289` Markdown context docs | [📄 Architecture Spec](./engagements/ecoglobal-development-corp/leasing-operations-platform.md) · [🌐 condormitel.homes](https://condormitel.homes) |
-| **EcoGlobal Development Corp.** | `ecoglobal-workspace-automations` | **Google Workspace & Apps Script Operations Console (`v318 STAFF LIVE`)** (`Google Apps Script`, `clasp` CLI, `Node.js` verification tools, `Google Sheets/Drive/Docs`) — `1,699` files, `138` deployed console files, `319` reference docs | [📄 Architecture Spec](./engagements/ecoglobal-development-corp/workspace-apps-script-console.md) |
-| **EcoGlobal Development Corp.** | `ecoglobal-sales-portal` | **Property Sales CRM & Lead Pipeline** (`Supabase`, `Render`, `Brevo`, `Doppler`, `Meta Lead Webhooks`, `GoDaddy DNS`) — `423` files, 12-folder `docs/` tree | [📄 Architecture Spec](./engagements/ecoglobal-development-corp/sales-crm-and-lead-portal.md) · [🌐 Ecosystem Overview](./engagements/ecoglobal-development-corp/README.md) |
-| **Planet of the Capes** | `planet-of-the-capes-storefront` | **Collector Storefront & `9:16` Mobile Reels Engine** (`Cloudflare Pages`, `Supabase`, modular `sections/00–08` compiled via `build.js`, category filters & interactive "Dibs" claim preview) — `422` files | [📄 Architecture Spec](./engagements/planet-of-the-capes/storefront-and-reels-engine.md) · [🌐 planetofthecapes.shop](https://planetofthecapes.shop) *(Live Preview)* |
-| **TrueGrit** | `truegrit-landing-page` | **Conversion Landing Page & Digital Storefront** (Responsive frontend architecture & lead intake layout) | [📄 Architecture Spec](./engagements/truegrit/conversion-landing-page.md) |
+I build internal operations tools, conversion storefronts, and short-form video pipelines. Instead of one-shot prompting, I structure repositories around linked Markdown context graphs (`CLAUDE.md` + `docs/`) and modular task breakdowns so AI agents (`Claude Code`, `Antigravity`) execute against defined business rules before human QA and post-production engineering sign-off.
 
 ---
 
-## 🗂️ Standard Repository & Context Architecture
+### Languages, Platforms & Integrations
 
-Every full-stack repository is organized to separate **linked Markdown business context (`docs/`)** from **live application code**, ensuring AI agents (`Claude Code` and `Google Antigravity`) follow strict scope rules and pre-push checks:
+* **Languages & Formats:** JavaScript (`Node.js`, ES Modules), Google Apps Script (`.gs`), SQL (`PostgreSQL`), HTML5, CSS3 (`Tailwind CSS`), React (`JSX`), Prisma Schema, Markdown (`.md`)
+* **Cloud, Hosting & Databases:** Supabase (`PostgreSQL`, `Auth`, `Storage`), Cloudflare Pages (`Wrangler`), Render (`Web Services` & `Render Static Sites`), Doppler (environment secrets), GoDaddy (custom domains & DNS)
+* **Workspace & Messaging Integrations:** Google Workspace (`Sheets`, `Drive`, `Docs` synced via `clasp` CLI), Brevo (automated transactional email & HTML templates), Meta Lead Webhooks
+* **AI & Context Tooling:** Claude (`Native Desktop App`, `VS Code`, `Supervised Terminal CLI`), Google Antigravity, Obsidian (`graphify` linked context graphs), task-based model routing (`Haiku` · `Sonnet` · `Opus`)
+* **Video & Creative Pipeline:** Adobe Premiere Pro (`.prproj`, `.mogrt`), CapCut, Adobe Media Encoder (`9:16` vertical & `16:9` batch exports), Canva Pro, Meta Business Suite
+
+---
+
+### Repositories by Company
+
+Production repositories are kept private to protect client records and internal business logic. Sanitized architectural briefs and live deployments are linked below:
+
+**EcoGlobal Development Corp.** *(1-year contractual span — [multi-system overview](./engagements/ecoglobal-development-corp/README.md))*
+* `ecoglobal-leasing-operations` — **Leasing Operations Platform** · 11-hub property, billing, and tenancy system (`1,241` files, `289` context docs) · [architecture spec](./engagements/ecoglobal-development-corp/leasing-operations-platform.md) · [condormitel.homes](https://condormitel.homes)
+* `ecoglobal-workspace-automations` — **Workspace & Apps Script Console (`v318 STAFF LIVE`)** · Daily staff operations console, monthly ledger automation, and local `clasp` verification mirror (`1,699` files, `138` deployed script files) · [architecture spec](./engagements/ecoglobal-development-corp/workspace-apps-script-console.md)
+* `ecoglobal-sales-portal` — **Sales & Lead CRM Portal** · Property inquiry pipeline connected to `condormitel.homes`, Meta lead webhooks, Supabase, Render, and Brevo (`423` files) · [architecture spec](./engagements/ecoglobal-development-corp/sales-crm-and-lead-portal.md)
+
+**Planet of the Capes**
+* `planet-of-the-capes-storefront` — **Storefront & `9:16` Reels Engine** · Modular collector storefront (`sections/00–08` compiled via Node `build.js`), vertical video showcase, and Cloudflare Pages deployment (`422` files) · [architecture spec](./engagements/planet-of-the-capes/storefront-and-reels-engine.md) · [planetofthecapes.shop](https://planetofthecapes.shop) *(live preview)*
+
+**TrueGrit**
+* `truegrit-landing-page` — **Conversion Landing Page** · Responsive digital storefront and lead-capture layout · [architecture spec](./engagements/truegrit/conversion-landing-page.md)
+
+---
+
+### Standard Repository Architecture
+
+Every full-stack repository separates business rules and audit logs (`docs/`) from live application code:
 
 ```text
 project-repository/
@@ -35,14 +48,8 @@ project-repository/
 └── .claude/ & .agents/skills/ Reusable AI agent workflows, rules & check scripts
 ```
 
-👉 **Read the full workflow guide:** [Context Architecture & Sub-Charger Workflow (`context-architecture/repository-blueprint.md`)](./context-architecture/repository-blueprint.md)
+Full workflow overview: [Context Architecture & Sub-Charger Workflow](./context-architecture/repository-blueprint.md)
 
 ---
 
-## 🛠️ Core Tooling & Production Stack
-
-* **AI & Context Engineering:** Claude (`Native Desktop App`, `VS Code Extension`, `Supervised Terminal CLI`), Google Antigravity, Obsidian (`graphify` linked Markdown context graphs), and task-based model routing (`Haiku` · `Sonnet` · `Opus`).
-* **Cloud, Data & Automation:** Supabase (`PostgreSQL` & Storage), Render (`Web Services` & `Render Static Sites`), Cloudflare Pages, Google Workspace & Apps Script (`clasp` CLI), Brevo (transactional email), Doppler (environment secrets), and GoDaddy (DNS routing).
-* **Video Editing & Creative Pipeline:** Adobe Premiere Pro (`.prproj`), CapCut, Motion Graphic Templates (`.mogrt`), Adobe Media Encoder (`9:16` vertical Reels & `16:9` horizontal exports), Canva Pro, and Meta Business Suite.
-
-> **Scope & Engineering Sign-Off:** No claim is made to specialized Computer Science credentials. I map the business workflows, structure the linked Markdown context files, and assemble the working modules using AI tooling—after which every production codebase undergoes review and final sign-off by a **Senior Licensed Computer Engineer** post-production.
+*Scope & Engineering Sign-Off: I do not claim formal Computer Science credentials. I map the business workflows, curate the repository context, and assemble the working modules using AI tooling—after which production codebases undergo review and final sign-off by a Senior Licensed Computer Engineer post-production.*
